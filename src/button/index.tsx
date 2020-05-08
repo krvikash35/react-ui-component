@@ -12,5 +12,11 @@ export function Button({
   colorScheme = 'default',
 }: TButtonProps) {
   // const { variant = 'flat' } = props;
-  return <div>Button</div>;
+  return (
+    <div>
+      Button{variant}
+      {size}
+      {colorScheme}
+    </div>
+  );
 }
