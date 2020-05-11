@@ -1,0 +1,24 @@
+export type TTheme = {
+  primary: string;
+  primaryDark: string;
+  primaryLight: string;
+  primaryLighter: string;
+  error: string;
+  errorDark: string;
+  errorLight: string;
+  errorLighter: string;
+  success: string;
+  successDark: string;
+  successLight: string;
+  successLighter: string;
+  background: string;
+  surface: string;
+  surfaceLight: string;
+  surfaceLighter: string;
+  surfaceDark: string;
+  textOnPrimary: string;
+  textOnSuccess: string;
+  textOnError: string;
+  textOnSurface: string;
+  textSecondaryOnSurface: string;
+};
